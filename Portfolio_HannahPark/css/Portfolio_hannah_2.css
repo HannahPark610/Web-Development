@@ -1,5 +1,7 @@
 body {
   background-image: url(../img/portfolio_main_bg.jpg);
+  background-color: #8ccade;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -10,22 +12,40 @@ body {
   display: block;
 }
 
+#icons {
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+
 .bar {
-  text-align: center;
+  height: 20px;
+}
+
+#group_bars_text {
   color: #fff;
-  margin: 0;
   font-family: 'Oswald', sans-serif;
   font-size: 60px
-}
-
-#bar {
-  top: 10px;
-  margin: 10px;
   position: relative;
+  text-align: center;
+
+}
+#bar1 {
+  background-color: #40adc8;
+}
+#bar2 {
+  background-color: #9198cb;
+}
+#bar3 {
+  background-color: #70c4b2;
+}
+#bar4 {
+  background-color: #dd9db2;
 }
 
-#lastLine {
-
+.line {
+  height: 1px;
+  background-color: #fff;
 }
 
 #address {
