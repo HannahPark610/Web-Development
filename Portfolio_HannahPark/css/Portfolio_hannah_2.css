@@ -1,0 +1,34 @@
+body {
+  background-image: url(../img/portfolio_main_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#LOGO {
+  height: 300px;
+  margin: auto;
+  display: block;
+}
+
+.bar {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px
+}
+
+#bar {
+  top: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+#lastLine {
+
+}
+
+#address {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
