@@ -1,6 +1,6 @@
 body {
-  background-image: url(../img/portfolio_main_bg.jpg);
-  background-color: #8ccade;
+  background-image: url(../img/portfolio_bg.jpg);
+  background-color: #87c8dc;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,11 +12,27 @@ body {
   display: block;
 }
 
-#icons {
+#icons_1 {
   height: 50px;
-  margin: auto;
-  display: block;
+  text-align: left;
 }
+
+#icons_2 {
+  height: 50px;
+  text-align: left;
+}
+
+#icons_3 {
+  height: 50px;
+  text-align: left;
+}
+
+#icons_4 {
+  height: 50px;
+  text-align: left;
+}
+
+
 
 .bar {
   height: 20px;
@@ -42,6 +58,36 @@ body {
 #bar4 {
   background-color: #dd9db2;
 }
+
+#content1 {
+  height: 700px;
+  background-color: #fff;
+  display: none;
+}
+
+#content2 {
+  height: 700px;
+  background-color: #fff;
+  display: none;
+}
+
+#content3 {
+  height: 700px;
+  background-color: #fff;
+  display: none;
+}
+
+#content4 {
+  height: 700px;
+  background-color: #fff;
+  display: none;
+}
+
+#address {
+  font-family: verdana;
+  color: #7ac2dd;
+}
+
 
 .line {
   height: 1px;
