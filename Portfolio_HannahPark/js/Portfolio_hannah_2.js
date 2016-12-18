@@ -30,6 +30,15 @@ $(function(){
     });
   });
 
+$(function(){
+
+  $("#icons_1").click(function(){
+    $("#group_bars").fadeOut("slow", function(){
+      $("#icons_1_S").fadeIn("slow");
+      });
+    });
+
+    });
    });
   });
  });

@@ -10,29 +10,44 @@ body {
   height: 300px;
   margin: auto;
   display: block;
+  vertical-align:middle;
+}
+
+#GraphicDesigner {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 3px grey;
+  position: relative;
+  text-align: center;
+}
+
+#WebDeveloper {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 3px grey;
+  position: relative;
+  text-align: center;
 }
 
 #icons_1 {
   height: 50px;
-  text-align: left;
+  margin-left: 50px;
 }
 
 #icons_2 {
   height: 50px;
-  text-align: left;
+  margin:10px;
 }
 
 #icons_3 {
   height: 50px;
-  text-align: left;
+  margin:10px;
 }
 
 #icons_4 {
   height: 50px;
-  text-align: left;
+  margin:10px;
 }
-
-
 
 .bar {
   height: 20px;
@@ -44,8 +59,8 @@ body {
   font-size: 60px
   position: relative;
   text-align: center;
-
 }
+
 #bar1 {
   background-color: #40adc8;
 }
@@ -60,34 +75,28 @@ body {
 }
 
 #content1 {
-  height: 700px;
-  background-color: #fff;
+  height: 500px;
+  background-color: #b3acd0;
   display: none;
 }
 
 #content2 {
-  height: 700px;
-  background-color: #fff;
+  height: 500px;
+  background-color: #b3acd0;
   display: none;
 }
 
 #content3 {
-  height: 700px;
-  background-color: #fff;
+  height: 500px;
+  background-color: #b3acd0;
   display: none;
 }
 
 #content4 {
-  height: 700px;
-  background-color: #fff;
+  height: 500px;
+  background-color: #acc0d0;
   display: none;
 }
-
-#address {
-  font-family: verdana;
-  color: #7ac2dd;
-}
-
 
 .line {
   height: 1px;
@@ -95,6 +104,15 @@ body {
 }
 
 #address {
-  font-family: 'Oswald', sans-serif;
   color: #fff;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  text-align: left;
+}
+
+#email {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  text-align: right;
 }
