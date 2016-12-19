@@ -29,9 +29,17 @@ body {
   text-align: center;
 }
 
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 #icons_1 {
   height: 50px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 #icons_2 {
@@ -47,6 +55,12 @@ body {
 #icons_4 {
   height: 50px;
   margin:10px;
+}
+
+.SNS_icons {
+  height: 500px;
+  background-color: #fff;
+  display: none;
 }
 
 .bar {
@@ -75,26 +89,49 @@ body {
 }
 
 #content1 {
-  height: 500px;
-  background-color: #b3acd0;
+  height: 800px;
+  background-color: #40adc8;
   display: none;
+}
+
+.p1 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px
+}
+
+.p4 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px
+}
+
+p {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px
+}
+
+#profile {
+  height: 300px;
+  margin: 10px;
 }
 
 #content2 {
   height: 500px;
-  background-color: #b3acd0;
+  background-color: #fff;
   display: none;
 }
 
 #content3 {
   height: 500px;
-  background-color: #b3acd0;
+  background-color: #fff;
   display: none;
 }
 
 #content4 {
   height: 500px;
-  background-color: #acc0d0;
+  background-color: #fff;
   display: none;
 }
 
