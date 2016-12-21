@@ -27,8 +27,10 @@ $(function(){
   $("#bar4").click(function(){
     $("#group_bars").fadeOut("slow", function(){
       $("#content4").fadeIn("slow");
-    });
   });
+});
+
+
 
 $(function(){
 
@@ -58,7 +60,6 @@ $(function(){
       $("#icons_4_t").fadeIn("slow");
       });
     });
-
 
        });
       });
